@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+:root {
+    --navbar: #0791B1;
+    --body: #fff;
+    --box: #0791B1;
+}
+
+.navbar {
+    background-color: var(--navbar);
+    padding: 14px 16px;
+}
+
+.navbar-dark {
+    background-color: #092142;
+}
+
+.body-dark {
+    background-color: #000A0C;
+}
+
+.box-dark {
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    background-color: #092142;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.heading {
+    font-size: 32px;
+    color: #fff;
+}
+
+.modeBtn {
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: 1px solid #0791B1;
+    background-color: #E3F5F9;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.game {
+    height: 50vmin;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+}
+
+.box {
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    background-color: var(--box);
+    color: #fff;
+}
+
+.resetBtn,
+.newBtn {
+    border: none;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    background-color: var(--box);
+}
+
+.hide {
+    display: none;
+}
+
+.msg {
+    margin: 20px auto;
+    font-size: 2rem;
+    color: var(--box);
+}
